@@ -1,0 +1,109 @@
+
+body {
+    background-image: url(/img/lion-g88ac9318e_1920.jpg);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    height: 1200px;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 27px;
+    left: 55px;
+    right: 1510px;
+
+}
+
+.logo img {
+    width: 25%;
+}
+
+.navbar {
+    display: block;
+    width: 45%;
+    height: 85px;
+    margin: 29px auto;
+    border-radius: 45px;
+    background-color: #97a44f;
+    color: #ffff;
+    font-weight: 400;
+}
+
+.navbar li {
+    padding: 31px 65px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.btn {
+    display: inline-block;
+    position: absolute;
+    right: 65px;
+    top: 34px;
+}
+
+.btn a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+}
+
+button {
+    border: 0px;
+    padding: 15px 25px;
+    margin: 15px 7px;
+    border-radius: 13px;
+    background-color: #97a44f;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.animalia {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 25px;
+    color: #b5449a;
+    margin-top: -68px;
+    margin-left: -15px;
+}
+
+.navbar li:hover {
+    color: rgb(98, 119, 41);
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: #abb959;
+}
+
+form {
+    display: inline-block;
+    border: 2px solid #97a44f;
+    margin: 130px 205px;
+    padding: 40px 25px;
+    border-radius: 10px;
+}
+
+input {
+    border: 0px;
+    font-size: 18px;
+    margin: 11px;
+    padding: 13px 107px;
+    border-radius: 30px;
+}
+
+button #submit {
+    text-decoration: none;
+    margin: 14px;
+    padding: 13px 153px;
+    border-radius: 45px;
+    font-size: 18px;
+    color: #ffff;
+}
